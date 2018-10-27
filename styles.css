@@ -1,0 +1,77 @@
+/*Selector(such as p, body, li, etc.){
+    property:value;
+}
+    
+Selector,selector:
+    property:value;(to select more than one element)
+    
+property->color, font-size, background-color
+value->blue, #FF5733, rgb(0,54,100)
+
+
+margins are between two objects
+padding is around a single object
+*/
+*{
+    padding-top: 10px;
+    margin:0px;
+}
+
+body{
+    overflow-x: hidden;
+    font-family: 'Open Sans', sans-serif;
+    text-rendering:optimizeLegibility !important;
+}
+
+a{
+    text-decoration: none;
+    transition: all 500ms ease-in-out;
+}
+
+h1,h2,h4{
+    font-family: 'PT- Sans Narrow', Arial, sans-serif;
+    text-transform: uppercase;
+    font-weight: 500;
+    padding-top:10px;
+}
+
+p{
+    font-size: 15px;
+    line-height: 25px;
+}
+
+.btn{
+    transition: all 300ms ease-in-out;
+    font-weight: 500 !important;
+    text-transform: uppercase;
+}
+
+.btn:hover{
+    background-color: #ededed;
+    color: #3c3c3c !important;
+    border: 1px solid #fff !important;
+}
+
+.navbar{
+    text-transform: uppercase;
+    font-family: 'PT Sans Narrow', Arial, sans-serif;
+    font-weight: 500;
+}
+
+.header{
+    box-sizing: border-box;
+}
+
+.slideshow-container{
+    position: relative;
+    margin: auto;
+}
+
+.header .myimages img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    /*margin-left:auto and margin-right: auto centers the image*/
+    max-width: 1500px;
+    height: 500px;
+}
