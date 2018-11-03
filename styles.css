@@ -9,8 +9,9 @@ property->color, font-size, background-color
 value->blue, #FF5733, rgb(0,54,100)
 
 
-margins are between two objects
-padding is around a single object
+margins are between two objects(surrounding a div)
+padding is around a single object*(within a div)
+padding: toppx rightpx bottompx leftpx;
 */
 *{
     padding-top: 10px;
@@ -74,4 +75,116 @@ p{
     /*margin-left:auto and margin-right: auto centers the image*/
     max-width: 1500px;
     height: 500px;
+}
+
+/*About us*/
+.about {
+    padding: 80px 0 80px;
+    text-align: center;
+}
+
+.about span{
+    width:100px;
+    color: #4c4c4c;
+    padding:10px;
+    display:inline-block;
+    font-size: 20px;
+}
+
+.about i{
+    height:50px;
+    font-size: 25px;
+    padding:15px;
+    border-radius: 40%;
+    /*higher the border radius, the rounder the object*/
+    background-color: #5cb85c;
+    color:#fff;
+}
+
+/*Meet our team*/
+.team h3{
+    margin-top: 30px;
+}
+
+.team img{
+    margin-top: 30px;
+    border-radius: 40%;
+}
+
+.team p{
+    color:#737373;
+}
+
+/*Get Involved*/
+.getInvolved {
+    padding:50px 0 80px;
+    text-align: center;
+    background-color: #5cb85c;
+    margin-top: 50px;
+}
+
+.getInvovled h2 {
+    color:#fff !important;
+}
+
+.getInvolved .options{
+    padding:30px;
+    border:1px solid #ccc;
+    background-color: #fff;
+    border-radius:5px;
+    margin-top: 30px;
+}
+
+.getInvolved i{
+    width:50px;
+    height:50px;
+    font-size: 40px;
+}
+
+/*Contact*/
+.contact{
+    background-color: #fff;
+    margin-top: 20px;
+}
+
+.contact .message{
+    height:100px;
+    margin-bottom: 5px;
+}
+
+/*Footer*/
+.footer{
+    background-color: #fff;
+    margin-top: 20px;
+}
+
+.footer .btn{
+    margin-top: 5px;
+}
+
+.footer i{
+    font-size: 20px;
+}
+
+/*Donate*/
+.donate{
+    background-color: #fff;
+    margin-top: 20px;
+}
+
+.donate button{
+    padding:10px;
+    width:100px;
+    margin:5px;
+}
+
+.donate .btn:hover{
+    background-color: #428bca !important;
+    color:#fff !important;
+}
+
+.donate .form-control{
+    width:330px;
+    padding:10px;
+    margin:5px;
 }
