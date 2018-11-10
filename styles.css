@@ -13,9 +13,13 @@ margins are between two objects(surrounding a div)
 padding is around a single object*(within a div)
 padding: toppx rightpx bottompx leftpx;
 */
+
+/*fonts.google.com*/
+
 *{
     padding-top: 10px;
     margin:0px;
+    font-family: 'Gochi Hand', cursive;
 }
 
 body{
@@ -59,23 +63,29 @@ p{
     font-weight: 500;
 }
 
-.header{
-    box-sizing: border-box;
-}
+/*.header{*/
+/*    box-sizing: border-box;*/
+/*}*/
 
 .slideshow-container{
     position: relative;
-    margin: auto;
-}
-
-.header .myimages img{
-    display: block;
     margin-left: auto;
     margin-right: auto;
-    /*margin-left:auto and margin-right: auto centers the image*/
-    max-width: 1500px;
-    height: 500px;
 }
+
+.myImages{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/*.header .myimages img{*/
+/*    display: block;*/
+    /*margin-left: auto;*/
+    /*margin-right: auto;*/
+    /*margin-left:auto and margin-right: auto centers the image*/
+    /*max-width: 1500px;*/
+/*    height: 500px;*/
+/*}*/
 
 /*About us*/
 .about {
@@ -108,7 +118,9 @@ p{
 
 .team img{
     margin-top: 30px;
-    border-radius: 40%;
+    border-radius: 45%;
+    height:80px;
+    width:80px;
 }
 
 .team p{
@@ -188,3 +200,7 @@ p{
     padding:10px;
     margin:5px;
 }
+
+/*#pfp{*/
+/*    height:50px;*/
+/*}*/
